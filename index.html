@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Mystery Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+
+        <h1>🎃 Halloween Mystery Box 👻</h1>
+        <p class="subtitle">Choose a box and discover your surprise!</p>
+
+        <div class="score-board">
+            <span>⭐ Score: <span id="score">0</span></span>
+            <span>🎲 Round: <span id="round">1</span>/5</span>
+        </div>
+
+        <h2 id="message">Choose your mystery box!</h2>
+
+        <div class="boxes">
+            <button class="box" data-box="1">🎁</button>
+            <button class="box" data-box="2">🎁</button>
+            <button class="box" data-box="3">🎁</button>
+        </div>
+
+        <p id="result">What's hiding inside?</p>
+
+        <button id="nextBtn" class="next-btn hidden">
+            Next Round ➡️
+        </button>
+
+        <button id="restartBtn" class="restart-btn hidden">
+            🔄 Play Again
+        </button>
+
+        <p class="footer">Made with 🎃 for Halloween!</p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
